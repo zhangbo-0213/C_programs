@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
-	char chars[100]="    hello world";
+	char chars[100]={0};
 	printf("chars: %s\n",chars);
-	//printf("请输入字符串：\n");
-	//scanf("%s",chars);
+	printf("请输入字符串：\n");
+	fgets(chars,sizeof(chars)-1,stdin);
 	int len=0;
 	//得到空字符长度
 	while(chars[len++]==' ');
