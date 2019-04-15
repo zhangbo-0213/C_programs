@@ -1,0 +1,3 @@
+﻿  02_数据类型.cpp
+e:\个人\study\c++\studyprojects\study\02_数据类型\02_数据类型.cpp(16): warning C4305: “初始化”: 从“double”到“float”截断
+  02_数据类型.vcxproj -> E:\个人\Study\C++\StudyProjects\Study\Debug\02_数据类型.exe
