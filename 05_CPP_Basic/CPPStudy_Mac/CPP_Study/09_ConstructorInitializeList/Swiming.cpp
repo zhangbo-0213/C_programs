@@ -1,0 +1,16 @@
+//
+//  Swiming.cpp
+//  09_ConstructorInitializeList
+//
+//  Created by marker on 2019/5/3.
+//  Copyright © 2019年 majortom. All rights reserved.
+//
+
+#include "Swiming.hpp"
+#include <iostream>
+
+using namespace std;
+Swiming::Swiming(int year){
+    _year=year;
+    cout<<"This is Swiming,Practice Year:"<<_year<<endl;
+}
