@@ -22,9 +22,13 @@
 		2F89F37C22A3806600381925 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F89F37B22A3806600381925 /* main.cpp */; };
 		2F89F38022A3808600381925 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F835AE422A15FA100152D0D /* OpenGL.framework */; };
 		2F89F38122A380A100381925 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F89F34122A1647000381925 /* libglfw.3.3.dylib */; };
-		2F89F38322A381CA00381925 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 2F89F38222A381CA00381925 /* glad.c */; };
 		2F89F38522A7DEAD00381925 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 2F89F38422A7DEAD00381925 /* glad.c */; };
 		2F89F38722A7DEB700381925 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 2F89F38622A7DEB700381925 /* glad.c */; };
+		2F89F38F22A9EFA400381925 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F89F38E22A9EFA400381925 /* main.cpp */; };
+		2F89F39422A9EFB700381925 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 2F89F38222A381CA00381925 /* glad.c */; };
+		2F89F39622A9EFD400381925 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 2F89F39522A9EFD400381925 /* glad.c */; };
+		2F89F39722A9F01900381925 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F835AE422A15FA100152D0D /* OpenGL.framework */; };
+		2F89F39922A9F04000381925 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F89F39822A9F03F00381925 /* libglfw.3.3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,6 +68,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		2F89F38A22A9EFA400381925 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +94,10 @@
 		2F89F38222A381CA00381925 /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
 		2F89F38422A7DEAD00381925 /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = glad.c; path = ../../../../../glad/src/glad.c; sourceTree = "<group>"; };
 		2F89F38622A7DEB700381925 /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = glad.c; path = ../../../../../glad/src/glad.c; sourceTree = "<group>"; };
+		2F89F38C22A9EFA400381925 /* 04_Vertex_Fragment_Shader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 04_Vertex_Fragment_Shader; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F89F38E22A9EFA400381925 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2F89F39522A9EFD400381925 /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = glad.c; path = 03_FirstTriangle/glad.c; sourceTree = SOURCE_ROOT; };
+		2F89F39822A9F03F00381925 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../../../../usr/local/Cellar/glfw/3.3/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +141,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2F89F38922A9EFA400381925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F89F39922A9F04000381925 /* libglfw.3.3.dylib in Frameworks */,
+				2F89F39722A9F01900381925 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -133,6 +159,7 @@
 				2F89F34C22A16D2500381925 /* 01_FirstTriangle */,
 				2F89F36B22A2316A00381925 /* 02_FirstWindow */,
 				2F89F37A22A3806600381925 /* 03_FirstTriangle */,
+				2F89F38D22A9EFA400381925 /* 04_Vertex_Fragment_Shader */,
 				2F835ADA22A15F4100152D0D /* Products */,
 				2F835AE322A15FA100152D0D /* Frameworks */,
 			);
@@ -145,6 +172,7 @@
 				2F89F34B22A16D2500381925 /* 01_FirstTriangle */,
 				2F89F36A22A2316A00381925 /* 02_FirstWindow */,
 				2F89F37922A3806600381925 /* 03_FirstTriangle */,
+				2F89F38C22A9EFA400381925 /* 04_Vertex_Fragment_Shader */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +180,7 @@
 		2F835AE322A15FA100152D0D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2F89F39822A9F03F00381925 /* libglfw.3.3.dylib */,
 				2F89F34322A1648D00381925 /* GLUT.framework */,
 				2F89F34122A1647000381925 /* libglfw.3.3.dylib */,
 				2F89F33F22A1645500381925 /* libGLEW.2.1.0.dylib */,
@@ -185,6 +214,15 @@
 				2F89F37B22A3806600381925 /* main.cpp */,
 			);
 			path = 03_FirstTriangle;
+			sourceTree = "<group>";
+		};
+		2F89F38D22A9EFA400381925 /* 04_Vertex_Fragment_Shader */ = {
+			isa = PBXGroup;
+			children = (
+				2F89F39522A9EFD400381925 /* glad.c */,
+				2F89F38E22A9EFA400381925 /* main.cpp */,
+			);
+			path = 04_Vertex_Fragment_Shader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +296,23 @@
 			productReference = 2F89F37922A3806600381925 /* 03_FirstTriangle */;
 			productType = "com.apple.product-type.tool";
 		};
+		2F89F38B22A9EFA400381925 /* 04_Vertex_Fragment_Shader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F89F39022A9EFA400381925 /* Build configuration list for PBXNativeTarget "04_Vertex_Fragment_Shader" */;
+			buildPhases = (
+				2F89F38822A9EFA400381925 /* Sources */,
+				2F89F38922A9EFA400381925 /* Frameworks */,
+				2F89F38A22A9EFA400381925 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 04_Vertex_Fragment_Shader;
+			productName = 04_Vertex_Fragment_Shader;
+			productReference = 2F89F38C22A9EFA400381925 /* 04_Vertex_Fragment_Shader */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -279,6 +334,9 @@
 					2F89F37822A3806600381925 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					2F89F38B22A9EFA400381925 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = 2F835AD422A15F4100152D0D /* Build configuration list for PBXProject "OpenGL" */;
@@ -297,6 +355,7 @@
 				2F89F34A22A16D2500381925 /* 01_FirstTriangle */,
 				2F89F36922A2316A00381925 /* 02_FirstWindow */,
 				2F89F37822A3806600381925 /* 03_FirstTriangle */,
+				2F89F38B22A9EFA400381925 /* 04_Vertex_Fragment_Shader */,
 			);
 		};
 /* End PBXProject section */
@@ -332,7 +391,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F89F37C22A3806600381925 /* main.cpp in Sources */,
-				2F89F38322A381CA00381925 /* glad.c in Sources */,
+				2F89F39422A9EFB700381925 /* glad.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F89F38822A9EFA400381925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F89F38F22A9EFA400381925 /* main.cpp in Sources */,
+				2F89F39622A9EFD400381925 /* glad.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +654,38 @@
 			};
 			name = Release;
 		};
+		2F89F39122A9EFA400381925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/marker/Documents/MajorTom/glad/include/,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw/3.3/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F89F39222A9EFA400381925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/marker/Documents/MajorTom/glad/include/,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw/3.3/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -630,6 +730,15 @@
 			buildConfigurations = (
 				2F89F37E22A3806600381925 /* Debug */,
 				2F89F37F22A3806600381925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F89F39022A9EFA400381925 /* Build configuration list for PBXNativeTarget "04_Vertex_Fragment_Shader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F89F39122A9EFA400381925 /* Debug */,
+				2F89F39222A9EFA400381925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
