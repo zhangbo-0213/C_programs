@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F0E54D322B6652900CA4141 /* Window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E54D122B6652900CA4141 /* Window.cpp */; };
 		2F835AE522A15FA100152D0D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F835AE422A15FA100152D0D /* OpenGL.framework */; };
 		2F89F34022A1645500381925 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F89F33F22A1645500381925 /* libGLEW.2.1.0.dylib */; };
 		2F89F34222A1647000381925 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F89F34122A1647000381925 /* libglfw.3.3.dylib */; };
@@ -29,6 +30,18 @@
 		2F89F39622A9EFD400381925 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 2F89F39522A9EFD400381925 /* glad.c */; };
 		2F89F39722A9F01900381925 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F835AE422A15FA100152D0D /* OpenGL.framework */; };
 		2F89F39922A9F04000381925 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F89F39822A9F03F00381925 /* libglfw.3.3.dylib */; };
+		2F89F3A122AD284E00381925 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F89F3A022AD284E00381925 /* main.cpp */; };
+		2F89F3A522AD28BB00381925 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F835AE422A15FA100152D0D /* OpenGL.framework */; };
+		2F89F3A622AD28F000381925 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F89F39822A9F03F00381925 /* libglfw.3.3.dylib */; };
+		2F89F3A822AD293200381925 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 2F89F3A722AD293200381925 /* glad.c */; };
+		2F89F3AB22AD297B00381925 /* ShaderH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F89F3A922AD297B00381925 /* ShaderH.cpp */; };
+		2F89F3B722AFC87700381925 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F89F3B622AFC87700381925 /* main.cpp */; };
+		2F89F3BC22AFC89B00381925 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 2F89F3BB22AFC89B00381925 /* glad.c */; };
+		2F89F3BD22AFC8C000381925 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F835AE422A15FA100152D0D /* OpenGL.framework */; };
+		2F89F3BE22AFC8C700381925 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F89F34322A1648D00381925 /* GLUT.framework */; };
+		2F89F3BF22AFC8DC00381925 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F89F39822A9F03F00381925 /* libglfw.3.3.dylib */; };
+		2F89F3C322AFC9D600381925 /* ShaderH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F89F3C222AFC9D600381925 /* ShaderH.cpp */; };
+		2F89F3C522AFCA2500381925 /* stb_image_implementation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F89F3C422AFCA2500381925 /* stb_image_implementation.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -77,9 +90,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		2F89F39C22AD284E00381925 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		2F89F3B222AFC87700381925 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2F0E54D122B6652900CA4141 /* Window.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Window.cpp; sourceTree = "<group>"; };
+		2F0E54D222B6652900CA4141 /* Window.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Window.hpp; sourceTree = "<group>"; };
 		2F835AD922A15F4100152D0D /* OpenGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenGL; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F835AE422A15FA100152D0D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		2F89F33F22A1645500381925 /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.1.0.dylib; path = ../../../../../usr/local/Cellar/glew/2.1.0/lib/libGLEW.2.1.0.dylib; sourceTree = "<group>"; };
@@ -98,6 +131,24 @@
 		2F89F38E22A9EFA400381925 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2F89F39522A9EFD400381925 /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = glad.c; path = 03_FirstTriangle/glad.c; sourceTree = SOURCE_ROOT; };
 		2F89F39822A9F03F00381925 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../../../../usr/local/Cellar/glfw/3.3/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
+		2F89F39E22AD284E00381925 /* 05_ShaderClass */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 05_ShaderClass; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F89F3A022AD284E00381925 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2F89F3A722AD293200381925 /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = glad.c; path = 03_FirstTriangle/glad.c; sourceTree = SOURCE_ROOT; };
+		2F89F3A922AD297B00381925 /* ShaderH.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderH.cpp; sourceTree = "<group>"; };
+		2F89F3AA22AD297B00381925 /* ShaderH.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ShaderH.hpp; sourceTree = "<group>"; };
+		2F89F3AC22AD46A900381925 /* vertexCode.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = vertexCode.vs; sourceTree = "<group>"; };
+		2F89F3AF22AD477E00381925 /* fragmentCode.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = fragmentCode.fs; sourceTree = "<group>"; };
+		2F89F3B422AFC87700381925 /* 06_Texture */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 06_Texture; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F89F3B622AFC87700381925 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2F89F3BB22AFC89B00381925 /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = glad.c; path = 03_FirstTriangle/glad.c; sourceTree = SOURCE_ROOT; };
+		2F89F3C022AFC91C00381925 /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stb_image.h; path = ../../stb_image.h; sourceTree = "<group>"; };
+		2F89F3C122AFC9C200381925 /* ShaderH.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ShaderH.hpp; path = 05_ShaderClass/ShaderH.hpp; sourceTree = SOURCE_ROOT; };
+		2F89F3C222AFC9D600381925 /* ShaderH.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ShaderH.cpp; path = 05_ShaderClass/ShaderH.cpp; sourceTree = SOURCE_ROOT; };
+		2F89F3C422AFCA2500381925 /* stb_image_implementation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stb_image_implementation.cpp; sourceTree = "<group>"; };
+		2F89F3C622B140AF00381925 /* awesomeface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awesomeface.png; sourceTree = "<group>"; };
+		2F89F3C722B140BC00381925 /* bricks2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bricks2.jpg; sourceTree = "<group>"; };
+		2F89F3C822B14B8400381925 /* vertexCode.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = vertexCode.vs; sourceTree = "<group>"; };
+		2F89F3C922B14CB700381925 /* fragmentCode.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = fragmentCode.fs; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +201,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2F89F39B22AD284E00381925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F89F3A622AD28F000381925 /* libglfw.3.3.dylib in Frameworks */,
+				2F89F3A522AD28BB00381925 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F89F3B122AFC87700381925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F89F3BF22AFC8DC00381925 /* libglfw.3.3.dylib in Frameworks */,
+				2F89F3BE22AFC8C700381925 /* GLUT.framework in Frameworks */,
+				2F89F3BD22AFC8C000381925 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -160,6 +230,8 @@
 				2F89F36B22A2316A00381925 /* 02_FirstWindow */,
 				2F89F37A22A3806600381925 /* 03_FirstTriangle */,
 				2F89F38D22A9EFA400381925 /* 04_Vertex_Fragment_Shader */,
+				2F89F39F22AD284E00381925 /* 05_ShaderClass */,
+				2F89F3B522AFC87700381925 /* 06_Texture */,
 				2F835ADA22A15F4100152D0D /* Products */,
 				2F835AE322A15FA100152D0D /* Frameworks */,
 			);
@@ -173,6 +245,8 @@
 				2F89F36A22A2316A00381925 /* 02_FirstWindow */,
 				2F89F37922A3806600381925 /* 03_FirstTriangle */,
 				2F89F38C22A9EFA400381925 /* 04_Vertex_Fragment_Shader */,
+				2F89F39E22AD284E00381925 /* 05_ShaderClass */,
+				2F89F3B422AFC87700381925 /* 06_Texture */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -223,6 +297,38 @@
 				2F89F38E22A9EFA400381925 /* main.cpp */,
 			);
 			path = 04_Vertex_Fragment_Shader;
+			sourceTree = "<group>";
+		};
+		2F89F39F22AD284E00381925 /* 05_ShaderClass */ = {
+			isa = PBXGroup;
+			children = (
+				2F89F3A722AD293200381925 /* glad.c */,
+				2F89F3A022AD284E00381925 /* main.cpp */,
+				2F89F3A922AD297B00381925 /* ShaderH.cpp */,
+				2F89F3AA22AD297B00381925 /* ShaderH.hpp */,
+				2F89F3AC22AD46A900381925 /* vertexCode.vs */,
+				2F89F3AF22AD477E00381925 /* fragmentCode.fs */,
+			);
+			path = 05_ShaderClass;
+			sourceTree = "<group>";
+		};
+		2F89F3B522AFC87700381925 /* 06_Texture */ = {
+			isa = PBXGroup;
+			children = (
+				2F89F3C622B140AF00381925 /* awesomeface.png */,
+				2F89F3C722B140BC00381925 /* bricks2.jpg */,
+				2F89F3BB22AFC89B00381925 /* glad.c */,
+				2F89F3C222AFC9D600381925 /* ShaderH.cpp */,
+				2F89F3C122AFC9C200381925 /* ShaderH.hpp */,
+				2F89F3C022AFC91C00381925 /* stb_image.h */,
+				2F89F3B622AFC87700381925 /* main.cpp */,
+				2F89F3C422AFCA2500381925 /* stb_image_implementation.cpp */,
+				2F89F3C822B14B8400381925 /* vertexCode.vs */,
+				2F89F3C922B14CB700381925 /* fragmentCode.fs */,
+				2F0E54D122B6652900CA4141 /* Window.cpp */,
+				2F0E54D222B6652900CA4141 /* Window.hpp */,
+			);
+			path = 06_Texture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +419,40 @@
 			productReference = 2F89F38C22A9EFA400381925 /* 04_Vertex_Fragment_Shader */;
 			productType = "com.apple.product-type.tool";
 		};
+		2F89F39D22AD284E00381925 /* 05_ShaderClass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F89F3A222AD284E00381925 /* Build configuration list for PBXNativeTarget "05_ShaderClass" */;
+			buildPhases = (
+				2F89F39A22AD284E00381925 /* Sources */,
+				2F89F39B22AD284E00381925 /* Frameworks */,
+				2F89F39C22AD284E00381925 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 05_ShaderClass;
+			productName = 05_ShaderClass;
+			productReference = 2F89F39E22AD284E00381925 /* 05_ShaderClass */;
+			productType = "com.apple.product-type.tool";
+		};
+		2F89F3B322AFC87700381925 /* 06_Texture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F89F3B822AFC87700381925 /* Build configuration list for PBXNativeTarget "06_Texture" */;
+			buildPhases = (
+				2F89F3B022AFC87700381925 /* Sources */,
+				2F89F3B122AFC87700381925 /* Frameworks */,
+				2F89F3B222AFC87700381925 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 06_Texture;
+			productName = 06_Texture;
+			productReference = 2F89F3B422AFC87700381925 /* 06_Texture */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -337,6 +477,12 @@
 					2F89F38B22A9EFA400381925 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					2F89F39D22AD284E00381925 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2F89F3B322AFC87700381925 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = 2F835AD422A15F4100152D0D /* Build configuration list for PBXProject "OpenGL" */;
@@ -356,6 +502,8 @@
 				2F89F36922A2316A00381925 /* 02_FirstWindow */,
 				2F89F37822A3806600381925 /* 03_FirstTriangle */,
 				2F89F38B22A9EFA400381925 /* 04_Vertex_Fragment_Shader */,
+				2F89F39D22AD284E00381925 /* 05_ShaderClass */,
+				2F89F3B322AFC87700381925 /* 06_Texture */,
 			);
 		};
 /* End PBXProject section */
@@ -401,6 +549,28 @@
 			files = (
 				2F89F38F22A9EFA400381925 /* main.cpp in Sources */,
 				2F89F39622A9EFD400381925 /* glad.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F89F39A22AD284E00381925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F89F3AB22AD297B00381925 /* ShaderH.cpp in Sources */,
+				2F89F3A122AD284E00381925 /* main.cpp in Sources */,
+				2F89F3A822AD293200381925 /* glad.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F89F3B022AFC87700381925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F89F3C322AFC9D600381925 /* ShaderH.cpp in Sources */,
+				2F0E54D322B6652900CA4141 /* Window.cpp in Sources */,
+				2F89F3C522AFCA2500381925 /* stb_image_implementation.cpp in Sources */,
+				2F89F3B722AFC87700381925 /* main.cpp in Sources */,
+				2F89F3BC22AFC89B00381925 /* glad.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -686,6 +856,70 @@
 			};
 			name = Release;
 		};
+		2F89F3A322AD284E00381925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/marker/Documents/MajorTom/glad/include/,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw/3.3/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F89F3A422AD284E00381925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/marker/Documents/MajorTom/glad/include/,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw/3.3/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2F89F3B922AFC87700381925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/marker/Documents/MajorTom/glad/include/,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw/3.3/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F89F3BA22AFC87700381925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/marker/Documents/MajorTom/glad/include/,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw/3.3/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -739,6 +973,24 @@
 			buildConfigurations = (
 				2F89F39122A9EFA400381925 /* Debug */,
 				2F89F39222A9EFA400381925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F89F3A222AD284E00381925 /* Build configuration list for PBXNativeTarget "05_ShaderClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F89F3A322AD284E00381925 /* Debug */,
+				2F89F3A422AD284E00381925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F89F3B822AFC87700381925 /* Build configuration list for PBXNativeTarget "06_Texture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F89F3B922AFC87700381925 /* Debug */,
+				2F89F3BA22AFC87700381925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
